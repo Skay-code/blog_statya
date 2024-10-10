@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blog_napitki</title>
+<link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .preview-container {
+    display: flex;
+    justify-content:space-around; /* Разделяет элементы по горизонтали */
+    flex-wrap:wrap; /* Позволяет элементам переноситься на новую строку при необходимости */
+}
+
+.preview-item {
+    background-color: #333;
+    border-radius: 8px;
+    padding: 1em;
+    text-align: center;
+    margin: 1em;
+    cursor: pointer; /* Указывает, что элемент кликабельный */
+    transition: transform 0.3s ease; /* Анимация при наведении */
+    color:white;
+}
+
+.preview-item:hover {
+    transform: scale(1.05); /* Увеличивает элемент при наведении */
+}
+
+.preview-image {
+    max-width: 100%; /* Устанавливает максимальную ширину изображения */
+    height: auto; /* Сохраняет пропорции изображения */
+    border-radius: 4px; /* Скругляет углы изображения */
+}
+        </style>
+    </head>
+    <body>
+    <nav>
+       <a href="index.html"><button class="knopka"><b>Главная</b></button></a>
+       <a href="about.html"><button class="knopka">Поиск</button></a>
+       <a href="contact.html"><button class="knopka">Профиль</button></a>
+    </nav>
+    
+<!-- Articles Preview Section -->
+<section id="articles-preview">
+<h1 align="center"><b>Статьи:</b></h1>
+    <div class="preview-container">
+        <div class="preview-item" onclick="window.location.href='voda.html'">
+            <img src="https://github.com/Skay-code/blog_statya/raw/main/file/картинка_воды.jpg" alt="вода" class="preview-image">
+            <h3>Вода.</h3>
+        </div>
+        <div class="preview-item" onclick="window.location.href='kofe.html'">
+            <img src="https://github.com/Skay-code/blog_statya/raw/main/file/картинка_кофе.jpg" alt="кофе" class="preview-image">
+            <h3>Кофе.</h3>
+        </div>
+    </div>
+</section>
+    </body>
+</html>

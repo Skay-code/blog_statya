@@ -1,0 +1,27 @@
+body {
+  background: url("https://github.com/Skay-code/blog_statya/raw/main/file/обой.avif");
+  color: black;}
+.knopka {
+  background-color: green;
+  color: white;
+  font-size: 17px;
+  margin: 1px;}
+h1 b, h3 b {border: ridge orange 3px;}
+#вода {
+  color: white;
+  text-align: center;
+  background-color: #19c2e9;}
+#кофе {
+  color: white;
+  text-align: center;
+  background-color: #986960;}
+.image-knopka {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: url(https://github.com/Skay-code/blog_statya/raw/main/file/иконка_дом.jpg);
+  background-size: cover;
+  border-radius: 50%;}
+a {color: blue;}
+a:visited {color: grey;}
+a:hover {color: orange;}
