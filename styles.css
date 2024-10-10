@@ -23,5 +23,5 @@ h1 b, h3 b {border: ridge orange 3px;}
   background-size: cover;
   border-radius: 50%;}
 a {color: blue;}
-a:visited {color: blue;}
+a:visited {color: grey;}
 a:hover {color: orange;}
