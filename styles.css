@@ -22,6 +22,12 @@ h1 b, h3 b {border: ridge orange 3px;}
   background: url(https://github.com/Skay-code/blog_statya/raw/main/file/иконка_дом.jpg);
   background-size: cover;
   border-radius: 50%;}
+.soc-knopka {
+  width: 60px;
+  height: 40px;
+  border: none;
+  background-color: #19c2e9;
+  border-radius: 30%;}
 a {color: blue;}
 a:visited {color: grey;}
 a:hover {color: orange;}
