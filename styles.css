@@ -28,7 +28,6 @@ h1 b, h3 b {border: ridge orange 3px;}
   border: none;
   background-color: #19c2e9;
   border-radius: 30%;
-  text-align: center;
   }
 a {color: blue;}
 a:visited {color: grey;}
