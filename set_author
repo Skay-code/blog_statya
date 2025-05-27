@@ -1,4 +1,4 @@
-import sqlite3
+import sqlite3 
 from typing import Optional, Tuple
 
 def set_topic_author(db_connection, topic_id: int, author_name: str) -> str:
